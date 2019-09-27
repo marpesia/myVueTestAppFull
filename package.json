@@ -1,0 +1,47 @@
+{
+  "name": "full",
+  "version": "1.0.0",
+  "description": "A native application built with NativeScript-Vue",
+  "author": "maria.cano <maria.cano@kaleidos.net>",
+  "license": "MIT",
+  "nativescript": {
+    "id": "org.nativescript.application",
+    "templateVersion": "v2",
+    "tns-android": {
+      "version": "6.0.0"
+    },
+    "tns-ios": {
+      "version": "6.0.1"
+    }
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "nativescript-vue": "^2.4.0",
+    "stylelint-scss": "^3.11.1",
+    "tns-core-modules": "^6.0.0",
+    "vuex": "^3.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@types/node": "^12.7.8",
+    "axios-mock-adapter": "^1.17.0",
+    "babel-loader": "^8.0.2",
+    "nativescript-dev-webpack": "^1.0.0",
+    "nativescript-vue-navigator": "^0.2.0",
+    "nativescript-vue-template-compiler": "^2.0.0",
+    "nativescript-worker-loader": "~0.9.0",
+    "node-sass": "^4.12.0",
+    "stylelint-config-standard": "^19.0.0",
+    "stylelint-order": "^3.1.1",
+    "tns-platform-declarations": "^6.0.0",
+    "ts-loader": "^6.1.0",
+    "typescript": "^3.2.4",
+    "vue": "^2.5.22",
+    "vue-class-component": "^7.1.0",
+    "vue-loader": "^15.4.0",
+    "vue-property-decorator": "^8.2.2",
+    "vuex-class": "^0.3.2",
+    "vuex-mock-store": "0.0.7"
+  }
+}
